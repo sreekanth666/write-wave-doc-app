@@ -75,7 +75,7 @@ function AllDocs() {
                 {
                     documents.length > 0 ?
                         documents.map((document) => (
-                            <Grid item xs={12} md={3} lg={4} xl={3} sm={6}>
+                            <Grid item xs={12} md={6} lg={4} xl={3} sm={12}>
                                 <Card variant="outlined" className='p-2' style={{minHeight:'230px'}}>
                                     <div className='row'>
                                         <div className='col-8'><p className='m-0 fw-bold fs-4'>{document.title}</p></div>

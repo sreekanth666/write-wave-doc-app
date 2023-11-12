@@ -11,7 +11,7 @@ function Footer() {
 
                 <div>
                     <p>Explore it on</p>
-                    <i className="fa-brands fa-github fs-3"></i>
+                    <a href="https://github.com/sreekanth666/write-wave-doc-app" target='_blank' style={{textDecoration:'none'}} className='text-light'><i className="fa-brands fa-github fs-3"></i></a>
                 </div>
             </div>
 
